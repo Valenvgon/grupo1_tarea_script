@@ -1,6 +1,4 @@
 #!/bin/bash
-mkdir   /$1
-touch /$1 ganador.txt
-if date +"%M"; then
-    echo "Has ganado"> ganador.txt
-    cat ganador.txt
+mkdir  $1
+cd $1
+touch  ganador.txt
